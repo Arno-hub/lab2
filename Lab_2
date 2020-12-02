@@ -9,24 +9,24 @@ Git Configuration
 Création d'un répertoire Lab_2
 --> commande mkdir Lab_2
 --> contient un fichier texte Quere --> créé avec la commande vim Quere  
-git add--> Stock les modifications, espace tampon, si on fait une erreur on peutfaire un back
+git add .--> Stock les modifications, espace tampon, si on fait une erreur on peut faire un back
 --> Ensuite command "commit" prend en compte les modifications réalisée
 
 Création d'un répertoire git
 --> commande git init 
--->commande git status --> checker l'état du fichier test ( s'il a bien été ajouté au répertoire lab_2
+--> commande git status --> checker l'état du fichier test ( s'il a bien été ajouté au répertoire lab_2
  
 COnfiguration du partage des codes sources avec une personne 
--->  git add --> pas d'acces  visible depuis l'extérieur -->
- après git add --> text stocké dans l'index  avant d'enregistrer les modifications réalisées sur le répertoire local ( qu'on peut partager avec quelqu'un)
-git add--> Stock les modifications, espace tampon, si on fait une erreur on peut faire un back 
+-->  git add .--> pas d'acces  visible depuis l'extérieur -->
+ après git add .--> text stocké dans l'index  avant d'enregistrer les modifications réalisées sur le répertoire local ( qu'on peut partager avec quelqu'un)
+git add .--> Stock les modifications, espace tampon, si on fait une erreur on peut faire un back 
 --> Ensuite command "git commit -m " prend en compte les modifications réalisées ( on peut mettre un commentaire sur ce qu'on a fait ) 
 
 Creation d'un compte sur git hub  
 --> création d'un répertoire vierge 
---> mettre à jour ce répertoire pour importer notre fichier text local avec la commande--> git remote add origin ... ete git push -u pour l'envoyer sur git hub 
+--> mettre à jour ce répertoire pour importer notre fichier texte local avec la commande--> git remote add origin ..., git branch -M et git push -u pour l'envoyer sur git hub 
 
-Creation d'un fichier text sur git hub 
+Creation d'un fichier texte sur git hub 
 --> importation sur le répertoire local avec git pull 
 --> clonage sur le répertoire $Home avec la commande git clone ...
  
